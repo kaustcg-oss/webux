@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "statistician": {
+      "command": "uvx",
+      "args": [
+        "--with", "mcp[cli]<2",
+        "--from", "git+https://github.com/ypotheto/statistician-mcp",
+        "statistician-mcp", "--transport", "stdio"
+      ]
+    }
+  }
+}
